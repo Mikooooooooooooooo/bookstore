@@ -7,6 +7,7 @@ require (
 	github.com/alexedwards/scs/v2 v2.8.0 // indirect
 	github.com/antonlindstrom/pgstore v0.0.0-20220421113606-e3a6e3fed12a // indirect
 	github.com/daulet-omarov/bookstore-platform v0.0.0-20250512202334-4128660602e6 // indirect
+	github.com/go-playground/assert/v2 v2.2.0 // indirect
 	github.com/gorilla/securecookie v1.1.1 // indirect
 	github.com/gorilla/sessions v1.2.1 // indirect
 	github.com/julienschmidt/httprouter v1.3.0 // indirect

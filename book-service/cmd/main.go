@@ -31,7 +31,7 @@ type config struct {
 type application struct {
 	config config
 	logger *log.Logger
-	books  models.BookModel
+	books  models.BookModelInterface
 }
 
 func main() {

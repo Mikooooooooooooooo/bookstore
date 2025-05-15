@@ -18,6 +18,14 @@ type Book struct {
 	CreatedAt time.Time `json:"-"`
 }
 
+type BookModelInterface interface {
+	Insert(book *Book) error
+	Get(id int64) (*Book, error)
+	Update(book *Book) error
+	Delete(id int64) error
+	GetAll() ([]*Book, error)
+}
+
 type BookModel struct {
 	DB *sql.DB
 }
